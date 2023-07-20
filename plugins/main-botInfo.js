@@ -52,33 +52,25 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *FG98*
+  *Mr Juice*
 ▢ Instagram :
-  • https://instagram.com/fg98_ff
+  • https://instagram.com/mr_juice7
 ▢ WhatsApp :
-  • (escribe solo si es necesario) 
+  • number unknown!
 ▢ GitHub :
-  • https://github.com/FG98F
+  • https://github.com/mrjuice01
 ▢ Telegram : 
-  • t.me/fgsupp_bot (FG) 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
-▢ YouTube : 
-  • https://youtube.com/fg98f
+  • t.me/DeveloperJuice
+  • t.me/mr_juice7
   
- *≡ HELPERS*
-  *CRISS*
-▢ Instagram : https://www.instagram.com/sayurizuniga3
-▢ WhatsApp : wa.me/
-  *ANDREA*
-▢ Instagram : https://
-▢ WhatsApp : wa.me/573125484672
-
+▢ YouTube : 
+  • https://www.youtube.com/@mrjuiceofc
+  
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
-*≡  NodeJS Uso de memoria*
+*≡  NodeJS memories*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 m.reply(infobt)

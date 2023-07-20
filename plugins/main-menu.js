@@ -28,23 +28,23 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *BayMax  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
-👋🏻 _Hola_ *%name*
-🧿 Nivel : *%level* 
+👋🏻 _Hello_ *%name*
+🧿 Level : *%level* 
 👥 Usuarios : %totalreg
 📈 Tiempo activo : %muptime
 ─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+▢ Subscribe Us
+• https://youtu.be/SdqQ59fKUs0
+▢ Downloaded Our Whatsapp
+• https://mrjuiceofc1.blogspot.com/
 ─────────────
 %readmore
-Ⓟ = Premium
-ⓓ = Diamantes
+Ⓟ = Prem
+ⓓ = Nomals
 -----  -----  -----  -----  -----
-  ≡ *LISTA DE MENUS*
+  ≡ *LIST OF MENUS*
 `.trimStart(),
   header: '┌─⊷ *%category*',
   body: '▢ %cmd %isdiamond %isPremium',
@@ -152,16 +152,16 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let pp = './src/fg_logo.jpg'
      
     conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rpl)
-    /*conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
+    /*conn.sendButton(m.chat, text.trim(), '▢ BayMax ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://instagram.com/mr_juice7', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
-      ['⌬ Grupos', `${_p}gpdylux`]
+      ['⌬ Groups', `${_p}gpdylux`]
     ],m, rpl)*/
   
     m.react('📚') 
     
   } catch (e) {
-    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
+    conn.reply(m.chat, '❎ Sorry The menu has an error', m)
     throw e
   }
 }

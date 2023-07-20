@@ -6,8 +6,8 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 let m2 = `
 ≡ _Use estos comandos sin el prefijo_
 
-▢ Si tienes más  audios   
-envíame por t.me/fgsupp_bot el *audio + comando* con en el que responderá
+▢ If you have more audios   
+send me by t.me/youtubedownloderbot the *audio + command* with in which you will respond
 
 ┌─⊷ *AUDIOS* 
 ▢ Bot
